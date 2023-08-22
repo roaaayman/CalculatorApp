@@ -1,9 +1,14 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
 
 class loginScreen extends StatelessWidget {
   var emailController = TextEditingController();
   var passwordController = TextEditingController();
+
+  loginScreen({super.key});
   
    
   @override
@@ -60,7 +65,6 @@ class loginScreen extends StatelessWidget {
                   obscureText: true,
                   onFieldSubmitted: (value) {
                     print(value);
-
                   },
                   onChanged: (String value) {
                     print(value);

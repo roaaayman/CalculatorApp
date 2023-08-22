@@ -4,17 +4,17 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 
-class loginScreen extends StatelessWidget {
+class LoginScreen extends StatelessWidget {
   var emailController = TextEditingController();
   var passwordController = TextEditingController();
 
-  loginScreen({super.key});
+  LoginScreen({super.key});
   
    
   @override
   Widget build(BuildContext context) {
 
-    var x=10.0; 
+    var x=20.0;
     
     return Scaffold(
       appBar: AppBar(
